@@ -17,3 +17,7 @@ body {
     width: 100vw;
     background-color: #FFFFFF;
 }
+
+#search-bar {
+    border: 1px solid gray;
+}
