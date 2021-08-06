@@ -156,6 +156,12 @@ main {
     flex: 1 0 auto; 
 }
 
+#section-special-attention > p {
+    border: 3px solid yellow;
+    text-align: center;
+}
+
+
 .section-footer {
     border-right: sienna;
 }
