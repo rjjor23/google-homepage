@@ -104,14 +104,19 @@ main {
 
 #section-search-bar {
     border: 1px solid gray;
+    flex: 1 0 11%;
+    max-height: 11%;
 }
 
 #section-buttons {
     border: 1px solid purple;
+    flex: 1 0 11%;
+    max-height: 11%;
 }
 
 #section-special-attention {
-    border: 1px solid saddlebrown;   
+    border: 1px solid saddlebrown;  
+    flex: 1 0 auto; 
 }
 
 .section-footer {
