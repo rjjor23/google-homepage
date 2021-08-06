@@ -42,7 +42,7 @@ a {
 
 #nav-one {
     /* border: 2px solid yellow; */
-    width: 12%;
+    width: 10%;
     height: 100%;
     /* border: 2px solid blue; */
     position: absolute;
@@ -53,6 +53,13 @@ a {
     line-height: 36px;
 }
 
+#nav-one > li {
+    display: inline-block;
+    flex: 1 0 auto;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
 #nav-one > li > a {
     text-align: center;
     /* border: 2px solid blue; */
@@ -60,10 +67,7 @@ a {
 }
 
 
-#nav-one > li {
-    display: inline-block;
-    flex: 1 0 auto;
-}
+
 
 #nav-two {
     /* border: 2px solid red; */
