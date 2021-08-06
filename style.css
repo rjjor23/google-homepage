@@ -132,8 +132,23 @@ main {
 
 #section-buttons {
     border: 1px solid purple;
-    flex: 1 0 11%;
-    max-height: 11%;
+    flex: 1 0 8%;
+    max-height: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    height: 34px;
+    margin: 6px;
+    padding: 8px 12px;
+    line-height: 18px;
+    border-radius: 4px;
+}
+
+.button:hover {
+    box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+    border: 1px solid rgba(230, 219, 219, 0.5);
 }
 
 #section-special-attention {
