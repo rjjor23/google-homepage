@@ -224,14 +224,29 @@ footer {
 #nav-three > li {
     /* border: 1px solid blue; */
     margin: 4px;
-    padding: 4px;
+    padding: 8px;
 }
 
 #nav-four {
     /* border: 2px solid blue; */
+    height: 100%;
     background-color: #f2f2f2;
-    display: flex;
+    
+}
+
+#nav-four > li {
+    /* border: 2px solid red; */
+    height: 100%;
     margin: 0 auto;
+    position: relative;
+}
+
+#nav-four > li > a {
+    /* border: 2px solid yellow; */
+    margin: 0 auto;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #nav-five {
