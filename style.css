@@ -100,7 +100,15 @@ main {
     border: 2px solid;
     flex: 1 0 33%;
     max-height: 33%;
+    position: relative;
 }
+
+#img-logo {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+}   
 
 #section-search-bar {
     border: 1px solid gray;
