@@ -25,6 +25,7 @@ li {
 
 a {
     text-decoration: none;
+    color: #777;
 }
 
 #navbar {
@@ -178,20 +179,21 @@ footer {
     overflow: hidden;
     display:flex;
     /* border: 2px solid black; */
+    background-color: #f2f2f2;
 }
 
 #nav-three {
-    /* background-color: #c4c4c4; */
+    background-color: #f2f2f2;
     display: flex;
 }
 
 #nav-four {
-    /* background-color: #c4c4c4; */
+    background-color: #f2f2f2;
     display: flex;
     margin: 0 auto;
 }
 
 #nav-five {
-    /* background-color: #c4c4c4; */
+    background-color: #f2f2f2;
     display: flex;
 }
