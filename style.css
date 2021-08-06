@@ -209,7 +209,7 @@ footer {
 
 .section-footer {
     flex: 1 0 33.3%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 #nav-three {
@@ -250,7 +250,16 @@ footer {
 }
 
 #nav-five {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: #f2f2f2;
+    height: 100%;
     display: flex;
+    justify-content: flex-end;
 }
+
+#nav-five > li {
+    /* border: 2px solid blue; */
+    margin: 4px;
+    padding: 8px;
+} 
+ 
