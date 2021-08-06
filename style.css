@@ -50,25 +50,7 @@ a {
     left: 0;
     display: flex;
     font-size: .85rem;
-    padding: 12px;
-}
-
-#nav-one > li {
-    display: inline-block;
-    flex: 1 0 auto;
-}
-
-#nav-two {
-    /* border: 2px solid red; */
-    width: 25%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: flex;
-    font-size: .85rem;
-    /* line-height: 40px; */
-    padding: 12px;
+    line-height: 36px;
 }
 
 #nav-one > li > a {
@@ -77,15 +59,61 @@ a {
     padding: 2px;
 }
 
-#nav-two > li {
+
+#nav-one > li {
     display: inline-block;
     flex: 1 0 auto;
 }
 
+#nav-two {
+    /* border: 2px solid red; */
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    font-size: .85rem;
+    /* line-height: 36px; */
+    justify-content: space-evenly;
+}
+
+
+#nav-two > li {
+    display: flex;
+    flex: 1 0 auto;
+    padding-right: 8px;
+    /* border: 2px solid yellow; */
+    height: 100%;
+    position: relative;
+}
+
 #nav-two > li > a {
     text-align: center;
-    /* border: 2px solid blue; */
-    padding: 2px;
+    /* height: 1.2rem; */
+    /* border: 2px solid blue;  */
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+
+}
+
+#btn-sign-in {
+    border: 2px solid #3185fc;
+    background-color: #3185fc;
+    color: #d5d5d5;
+    padding: 8px 8px 8px 8px;
+    height: 36px;
+    width: 72px;
+    border-radius: 4px;
+
+}
+
+#btn-sign-in:hover {
+    background-color: #d5d5d5;
+    color: #3185fc;
 }
 
 main {
@@ -146,6 +174,7 @@ main {
     line-height: 18px;
     border-radius: 4px;
 }
+
 
 .button:hover {
     box-shadow: 1px 1px 1px rgba(0,0,0,.5);
