@@ -6,13 +6,13 @@
 }
 
 body {
-    max-height: 100vh;
+    /* max-height: 100vh; */
     font-family: Arial, Helvetica, sans-serif;
     /* background-color: burlywood; */
 }
 
 #wrapper {
-    /* border: 2px solid yellow; */
+    border: 2px solid yellow;
     height: 100vh;
     max-height: 100vh;
     width: 100vw;
@@ -32,7 +32,7 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 44px;
     overflow: hidden;
     display: flex;
@@ -40,7 +40,21 @@ a {
 }
 
 #nav-one {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
+    width: 12%;
+    height: 100%;
+    /* border: 2px solid blue; */
+    position: absolute;
+    top:0;
+    left: 0;
+    display: flex;
+    font-size: .85rem;
+    padding: 12px;
+}
+
+#nav-one > li {
+    display: inline-block;
+    flex: 1 0 auto;
 }
 
 #nav-two {
@@ -52,7 +66,14 @@ a {
     right: 0;
     display: flex;
     font-size: .85rem;
-    line-height: 40px;
+    /* line-height: 40px; */
+    padding: 12px;
+}
+
+#nav-one > li > a {
+    text-align: center;
+    /* border: 2px solid blue; */
+    padding: 2px;
 }
 
 #nav-two > li {
@@ -68,6 +89,8 @@ a {
 
 main {
     margin-top: 44px;
+    height: calc(100% - 88px);
+    border: 3px solid red;
 }
 
 #search-bar {
@@ -81,5 +104,5 @@ footer {
     width: 100vw;
     height: 44px;
     overflow: hidden;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
