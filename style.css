@@ -18,6 +18,26 @@ body {
     background-color: #FFFFFF;
 }
 
+#navbar {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 2px solid black;
+    height: 44px;
+    overflow: hidden;
+}
+
 #search-bar {
     border: 1px solid gray;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: o;
+    width: 100vw;
+    height: 44px;
+    overflow: hidden;
+    border: 2px solid black;
 }
