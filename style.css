@@ -33,36 +33,30 @@ a {
 
 #navbar {
     position:absolute;
-    /* background:rgb(44, 43, 43); */
     top: 0;
     left: 0;
     width: 100%;
     /* border: 2px solid black; */
     height: 44px;
-    /* overflow: hidden; */
     display: flex;
     flex-direction: row;
     margin-top: 4px;
 }
 
 #nav-one {
-    border: 2px solid yellow;
-    /* background-color: black; */
+    /* border: 2px solid yellow; */
     width: 5%;
     height: 100%;
     position: absolute;
     top:8px;
     left:16px;
     display: flex;
-    
     line-height: 36px;
 }
 
 #nav-one > li {
-    /* display: inline-block; */
     flex: 1 0 auto;
     border: 2px solid red;
-    background-color: red;
     text-align: center;
 }
 
@@ -81,8 +75,7 @@ a {
     top: 8px;
     right: 0;
     display: flex;
-    font-size: .85rem;
-    /* line-height: 36px; */
+    font-size: .85;
     justify-content: space-evenly;
 }
 
@@ -98,7 +91,6 @@ a {
 
 #nav-two > li > a {
     text-align: center;
-    /* height: 1.2rem; */
     /* border: 2px solid blue;  */
     margin: 0 auto;
     position: absolute;
@@ -131,12 +123,10 @@ a {
 }
 
 main {
-    /* margin-top: 44px; */
     height: calc(100% - 88px);
     /* border: 3px solid red; */
     display: flex;
     flex-direction: column;
-
 }
 
 #section-img {
