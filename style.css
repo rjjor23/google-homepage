@@ -29,21 +29,25 @@ a {
     font-size: .95rem;
 }
 
+
+
 #navbar {
     position:absolute;
+    /* background:rgb(44, 43, 43); */
     top: 0;
     left: 0;
     width: 100%;
     /* border: 2px solid black; */
     height: 44px;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     flex-direction: row;
     margin-top: 4px;
 }
 
 #nav-one {
-    /* border: 2px solid yellow; */
+    border: 2px solid yellow;
+    /* background-color: black; */
     width: 5%;
     height: 100%;
     position: absolute;
@@ -55,19 +59,18 @@ a {
 }
 
 #nav-one > li {
-    display: inline-block;
+    /* display: inline-block; */
     flex: 1 0 auto;
-    /* border: 2px solid red; */
+    border: 2px solid red;
+    background-color: red;
     text-align: center;
 }
 
 #nav-one > li > a {
     text-align: center;
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     padding: 2px;
 }
-
-
 
 
 #nav-two {
