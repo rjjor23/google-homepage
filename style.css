@@ -124,21 +124,24 @@ a {
 
 main {
     height: calc(100% - 88px);
+    margin-top: 44px;
+    margin-bottom: 44px;
     /* border: 3px solid red; */
     display: flex;
     flex-direction: column;
 }
 
-#section-img {
-    /* border: 2px solid; */
+#img {
+    border: 2px solid; 
+    margin-top: 44px;
     flex: 1 0 41%;
-    max-height: 41%;
+    max-height: 36%;
     position: relative;
-}
+} 
 
 #img-logo {
     position: absolute;
-    bottom: 0;
+    bottom: 12px;
     right: 50%;
     transform: translateX(50%);
 }   
